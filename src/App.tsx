@@ -1,6 +1,12 @@
+import BodyContent from "./components/BodyContent/BodyContent"
+import { Header } from "./components/Header/Header"
+
 function App() {
   return (
-  <h1>Mapper Desmatamento</h1>
+  <>
+    <Header/>
+    <BodyContent/>
+  </>
   )
 }
 
